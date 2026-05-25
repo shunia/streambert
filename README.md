@@ -1,7 +1,7 @@
-[![Downloads@latest](https://img.shields.io/github/downloads/truelockmc/streambert/latest/total?style=for-the-badge)](https://github.com/truelockmc/streambert/releases/latest/)
-[![Release Version Badge](https://img.shields.io/github/v/release/truelockmc/streambert?style=for-the-badge)](https://github.com/truelockmc/streambert/releases)
-[![Issues Badge](https://img.shields.io/github/issues/truelockmc/streambert?style=for-the-badge)](https://github.com/truelockmc/streambert/issues)
-[![Closed Issues Badge](https://img.shields.io/github/issues-closed/truelockmc/streambert?color=%238256d0&style=for-the-badge)](https://github.com/truelockmc/streambert/issues?q=is%3Aissue+is%3Aclosed)<br>
+[![Downloads@latest](https://img.shields.io/github/downloads/shunia/streambert/latest/total?style=for-the-badge)](https://github.com/shunia/streambert/releases/latest/)
+[![Release Version Badge](https://img.shields.io/github/v/release/shunia/streambert?style=for-the-badge)](https://github.com/shunia/streambert/releases)
+[![Issues Badge](https://img.shields.io/github/issues/shunia/streambert?style=for-the-badge)](https://github.com/shunia/streambert/issues)
+[![Closed Issues Badge](https://img.shields.io/github/issues-closed/shunia/streambert?color=%238256d0&style=for-the-badge)](https://github.com/shunia/streambert/issues?q=is%3Aissue+is%3Aclosed)<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-truelockmc%2Fstreambert-181717?style=for-the-badge&logo=github)](https://github.com/truelockmc/streambert)
 [![Codeberg](https://img.shields.io/badge/Codeberg-truelockmc%2Fstreambert-2185D0?style=for-the-badge&logo=codeberg)](https://codeberg.org/truelockmc/streambert)
@@ -9,7 +9,7 @@
 # Streambert
 A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking <br></br>
 ![Logo](public/logo.svg)
-[Installation](https://github.com/truelockmc/streambert?tab=readme-ov-file#requirements)
+[Installation](https://github.com/shunia/streambert?tab=readme-ov-file#requirements)
 
 ## Why Streambert?
 - 🎦 **Streaming:** Stream any Movie, Anime or TV Series from around the World.
@@ -31,7 +31,7 @@ A cross-platform Electron Desktop App to stream and download any Movie, TV Serie
 ![Download Subtitles](screenshots/subs.png)
 ![Download Everything](screenshots/download.png)
 ---
-[![Stargazers](https://reporoster.com/stars/dark/truelockmc/streambert)](https://github.com/truelockmc/streambert/stargazers)
+[![Stargazers](https://reporoster.com/stars/dark/shunia/streambert)](https://github.com/shunia/streambert/stargazers)
 ---
 ## Streaming
 The Application mainly gets Video Streams from VidSrc (you can also Stream from videasy.net and 2Embed). <br></br>
@@ -52,7 +52,7 @@ Media Files for Animes are scraped from AllManga.to (i stole this mechanic from 
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) (>=22.12.0) installed (only if you aren't using [prebuilt Binaries](https://github.com/truelockmc/streambert/releases/latest))
+- [Node.js](https://nodejs.org/) (>=22.12.0) installed (only if you aren't using [prebuilt Binaries](https://github.com/shunia/streambert/releases/latest))
 - A free TMDB API Read Access Token ([Guide on how to get one](tmdb-tutorial.md))
 - For downloading, [this Program](https://github.com/truelockmc/vid-dl-cli-only/releases/latest) somewhere on your PC and [ffmpeg](https://ffmpeg.org/download.html) installed
 
@@ -63,7 +63,7 @@ It's saved locally, you only need to do this once.
 
 ### Linux, Manual (.deb / .AppImage / .pacman)
 
-Download the latest `.deb` `.pacman` or `.AppImage` from the [Releases](https://github.com/truelockmc/streambert/releases/latest) page.
+Download the latest `.deb` `.pacman` or `.AppImage` from the [Releases](https://github.com/shunia/streambert/releases/latest) page.
 ```bash
 # .deb
 sudo dpkg -i streambert_*.deb
@@ -77,7 +77,7 @@ chmod +x Streambert-x64.AppImage && ./Streambert-x64.AppImage
 
 ### Windows
 
-Download the latest `Streambert Setup *.exe` from the [Releases](https://github.com/truelockmc/streambert/releases/latest) page and run it.
+Download the latest `Streambert Setup *.exe` from the [Releases](https://github.com/shunia/streambert/releases/latest) page and run it.
 
 ---
 
