@@ -35,11 +35,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 22
+
+      - name: Enable pnpm
+        run: corepack enable
 
       - name: Install deps
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Resolve release metadata
         id: meta
@@ -61,7 +63,7 @@ jobs:
           "name=$name" >> $env:GITHUB_OUTPUT
 
       - name: Build Windows package
-        run: npm run dist:win
+        run: pnpm run dist:win
 
       - name: Upload workflow artifacts
         uses: actions/upload-artifact@v4
